@@ -1,0 +1,55 @@
+body{
+    background-color: orange;
+    font-family: 'Arial';
+    font-size: 15px;
+}
+
+#menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+  
+#menu :hover{
+    transition: all 1.5s;
+    background-color: none;
+}
+
+#menu li {
+    margin: 0;
+}
+  
+#menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: all 1s;
+}
+  
+#menu a:hover {
+    color: black;
+    background-color: white;
+    background-color: #ccc;
+}
+   
+#menu a:first-child {
+    background-color: red;
+}
+  
+#menu a:nth-child(2) {
+    background-color: green;
+}
+
+#menu a:nth-child(3) {
+    background-color: blue;
+}
+
+#menu a:last-child {
+    background-color: transparent;
+}
+
+#menu a:focus {
+    background-color: blue; /* couleur de fond pour le lien actif */
+}  
